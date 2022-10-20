@@ -35,7 +35,7 @@ export default function QaForm() {
 
     return(
         <form onSubmit={handleOnSubmit} className='form'>
-            <h2 className='form__title'>QA Redux</h2>
+            <h2 className='form__title'>QA Context</h2>
             <div className='form__inputs-box'>
                 <input className='form__input' placeholder='Ask a question...' type='text' value={qa.question} onChange={onChangeQuestionInput}/>
                 <textarea className='form__textarea' rows={7} cols={70} placeholder='Provide an answer...' value={qa.answer} onChange={onChangeAnswerInput}/>
