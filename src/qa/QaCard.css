@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid black;
+    padding: 1em;
+    margin-top: 0.5em;
+    width: 25em;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.313)
+}
+
+.card__header {
+    border-bottom: 1.2px solid black;
+    margin-bottom: 1em;
+}
+
+.card__question {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card__button {
+    padding: 0.5em;
+    background-color: rgba(255, 21, 21, 0.767);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.2em;
+}
